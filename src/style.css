@@ -9,6 +9,7 @@ a { color:inherit; text-decoration:none; }
 .site-header { height:76px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line); }
 .brand { font-size:14px; font-weight:800; letter-spacing:-.02em; display:flex; align-items:center; gap:10px; }
 .brand-mark { display:grid; place-items:center; width:26px; height:26px; color:var(--paper); background:var(--ink); border-radius:50%; font-size:12px; }
+.brand-mark svg { width:15px; height:15px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
 .header-note,.panel-top,.panel-bottom,footer { color:var(--muted); font:10px var(--mono); letter-spacing:.08em; text-transform:uppercase; }
 .header-note { display:flex; align-items:center; gap:8px; }
 .live-dot,.green-dot { width:7px; height:7px; display:inline-block; border-radius:50%; background:var(--green); }

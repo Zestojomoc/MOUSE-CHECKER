@@ -8,7 +8,7 @@ const tests = [
 ]
 
 document.querySelector('#app').innerHTML = `
-  <header class="site-header"><a class="brand" href="/" aria-label="Mouse Checker home"><span class="brand-mark">M</span> Mouse Checker</a><div class="header-note"><span class="live-dot"></span> Browser input utility</div></header>
+  <header class="site-header"><a class="brand" href="/" aria-label="Mouse Checker home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 3a6 6 0 0 0-6 6v6a6 6 0 0 0 12 0V9a6 6 0 0 0-6-6Z"></path><path d="M12 3v6M9 6h6"></path></svg></span> Mouse Checker</a><div class="header-note"><span class="live-dot"></span> Browser input utility</div></header>
   <main>
     <section class="intro"><div><p class="eyebrow">INPUT DIAGNOSTICS / 01</p><h1>Every click,<br><em>accounted for.</em></h1></div><div class="intro-copy"><p>Test your mouse buttons, wheel, and movement in real time. A quiet little check for the hardware you use every day.</p><span class="scroll-cue">Move your mouse anywhere in the test area <span aria-hidden="true">↘</span></span></div></section>
     <section class="workbench" aria-label="Mouse test area">
