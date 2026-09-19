@@ -59,9 +59,9 @@ h1 em { color:var(--muted); font-style:normal; font-weight:400; }
 .status-panel { padding:31px 28px 22px; background:var(--panel); }
 .status-heading { display:flex; justify-content:space-between; align-items:flex-start; }
 h2 { margin:0; font-size:24px; line-height:1; letter-spacing:-.05em; }
-.reset-button { border:1px solid var(--line); border-radius:99px; background:transparent; padding:8px 12px; cursor:pointer; font-size:11px; color:#444; transition:background .2s,border .2s; }
+.reset-button { border:1px solid var(--line); border-radius:99px; background:transparent; padding:8px 12px; cursor:pointer; font-size:11px; color:#444; transition:background .2s,border-color .2s,color .2s; }
 .reset-button span { font-size:17px; vertical-align:-1px; margin-right:4px; }
-.reset-button:hover { background:#ededE8; border-color:#999; } .reset-button:focus-visible { outline:2px solid var(--green); outline-offset:3px; }
+.reset-button:hover { background:#dc2626; border-color:#dc2626; color:#fff; } .reset-button:focus-visible { outline:2px solid var(--green); outline-offset:3px; }
 .progress-wrap { margin:34px 0 16px; }
 .progress-label { display:flex; justify-content:space-between; color:var(--muted); font:10px var(--mono); margin-bottom:8px; }
 .progress-track { height:4px; background:#e6e6e1; } #progress-bar { height:100%; width:0; background:var(--green); transition:width .35s ease; }
